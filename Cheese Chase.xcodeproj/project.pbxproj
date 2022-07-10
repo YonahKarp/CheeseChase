@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1FD47A1E3F83D30047C639 /* SKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FD4791E3F83D30047C639 /* SKButton.swift */; };
+		0E26DA5D1DECB40400DB9916 /* TutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26DA5C1DECB40400DB9916 /* TutorialScene.swift */; };
+		0E3A2ADB1D9F09B7004B3B14 /* Barrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A2ADA1D9F09B7004B3B14 /* Barrier.swift */; };
+		0E5E895D1DF396230036A496 /* TutorialLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E895C1DF396230036A496 /* TutorialLevel.swift */; };
+		0E5E895F1DF3969F0036A496 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E895E1DF3969F0036A496 /* Tutorial.swift */; };
+		F46DEBC41D145113007A1FB2 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46DEBC31D145113007A1FB2 /* Cat.swift */; };
+		F46DEBC61D1458AA007A1FB2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46DEBC51D1458AA007A1FB2 /* Player.swift */; };
+		F46DEBC81D170014007A1FB2 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46DEBC71D170014007A1FB2 /* Mouse.swift */; };
+		F4B5974B1D832CB20017A83B /* CheeseHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5974A1D832CB20017A83B /* CheeseHud.swift */; };
+		F4C9603E1CB47AFF002362C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C9603D1CB47AFF002362C0 /* AppDelegate.swift */; };
+		F4C960401CB47AFF002362C0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4C9603F1CB47AFF002362C0 /* GameScene.sks */; };
+		F4C960441CB47AFF002362C0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C960431CB47AFF002362C0 /* GameViewController.swift */; };
+		F4C960471CB47AFF002362C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C960451CB47AFF002362C0 /* Main.storyboard */; };
+		F4C960491CB47AFF002362C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C960481CB47AFF002362C0 /* Assets.xcassets */; };
+		F4C9604C1CB47AFF002362C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C9604A1CB47AFF002362C0 /* LaunchScreen.storyboard */; };
+		F4C960571CB47AFF002362C0 /* Cheese_ChaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C960561CB47AFF002362C0 /* Cheese_ChaseTests.swift */; };
+		F4CAC8A31D10546900D7DF00 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CAC8A21D10546900D7DF00 /* GameScene.swift */; };
+		F4D846D51D60E5CF00D864BA /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D846D31D60E5CF00D864BA /* PlistManager.swift */; };
+		F4D846D71D60EA1600D864BA /* MyData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4D846D61D60EA1600D864BA /* MyData.plist */; };
+		F4EC70FB1CBDD33800EFE1AA /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EC70FA1CBDD33800EFE1AA /* Level.swift */; };
+		F4EC70FD1CBE86AC00EFE1AA /* StageSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EC70FC1CBE86AC00EFE1AA /* StageSelect.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C960531CB47AFF002362C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4C960321CB47AFF002362C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C960391CB47AFF002362C0;
+			remoteInfo = "Cheese Chase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E1FD4791E3F83D30047C639 /* SKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKButton.swift; sourceTree = "<group>"; };
+		0E26DA5C1DECB40400DB9916 /* TutorialScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialScene.swift; sourceTree = "<group>"; };
+		0E3A2ADA1D9F09B7004B3B14 /* Barrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barrier.swift; sourceTree = "<group>"; };
+		0E5E895C1DF396230036A496 /* TutorialLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialLevel.swift; sourceTree = "<group>"; };
+		0E5E895E1DF3969F0036A496 /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		F46DEBC31D145113007A1FB2 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		F46DEBC51D1458AA007A1FB2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F46DEBC71D170014007A1FB2 /* Mouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
+		F4B5974A1D832CB20017A83B /* CheeseHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseHud.swift; sourceTree = "<group>"; };
+		F4C9603A1CB47AFF002362C0 /* Cheese Chase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheese Chase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C9603D1CB47AFF002362C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4C9603F1CB47AFF002362C0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F4C960431CB47AFF002362C0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F4C960461CB47AFF002362C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4C960481CB47AFF002362C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C9604B1CB47AFF002362C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4C9604D1CB47AFF002362C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C960521CB47AFF002362C0 /* Cheese ChaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheese ChaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C960561CB47AFF002362C0 /* Cheese_ChaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheese_ChaseTests.swift; sourceTree = "<group>"; };
+		F4C960581CB47AFF002362C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CAC8A21D10546900D7DF00 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F4D846D31D60E5CF00D864BA /* PlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
+		F4D846D61D60EA1600D864BA /* MyData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyData.plist; sourceTree = "<group>"; };
+		F4EC70FA1CBDD33800EFE1AA /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		F4EC70FC1CBE86AC00EFE1AA /* StageSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StageSelect.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C960371CB47AFF002362C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C9604F1CB47AFF002362C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8063FB1F32505B00333079 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				F46DEBC51D1458AA007A1FB2 /* Player.swift */,
+				F46DEBC71D170014007A1FB2 /* Mouse.swift */,
+				F46DEBC31D145113007A1FB2 /* Cat.swift */,
+				0E3A2ADA1D9F09B7004B3B14 /* Barrier.swift */,
+				F4B5974A1D832CB20017A83B /* CheeseHud.swift */,
+			);
+			name = GameObjects;
+			sourceTree = "<group>";
+		};
+		0EF04DD21F32171200897814 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F4CAC8A21D10546900D7DF00 /* GameScene.swift */,
+				0E26DA5C1DECB40400DB9916 /* TutorialScene.swift */,
+				F4EC70FC1CBE86AC00EFE1AA /* StageSelect.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		F4C960311CB47AFF002362C0 = {
+			isa = PBXGroup;
+			children = (
+				F4C9603C1CB47AFF002362C0 /* Cheese Chase */,
+				F4C960551CB47AFF002362C0 /* Cheese ChaseTests */,
+				F4C9603B1CB47AFF002362C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C9603B1CB47AFF002362C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C9603A1CB47AFF002362C0 /* Cheese Chase.app */,
+				F4C960521CB47AFF002362C0 /* Cheese ChaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C9603C1CB47AFF002362C0 /* Cheese Chase */ = {
+			isa = PBXGroup;
+			children = (
+				0E8063FB1F32505B00333079 /* GameObjects */,
+				0EF04DD21F32171200897814 /* Scenes */,
+				F4C960481CB47AFF002362C0 /* Assets.xcassets */,
+				F4D846D61D60EA1600D864BA /* MyData.plist */,
+				F4C9604D1CB47AFF002362C0 /* Info.plist */,
+				F4D846D31D60E5CF00D864BA /* PlistManager.swift */,
+				F4C960431CB47AFF002362C0 /* GameViewController.swift */,
+				0E5E895E1DF3969F0036A496 /* Tutorial.swift */,
+				0E5E895C1DF396230036A496 /* TutorialLevel.swift */,
+				F4EC70FA1CBDD33800EFE1AA /* Level.swift */,
+				F4C9603D1CB47AFF002362C0 /* AppDelegate.swift */,
+				F4C960451CB47AFF002362C0 /* Main.storyboard */,
+				F4C9604A1CB47AFF002362C0 /* LaunchScreen.storyboard */,
+				F4C9603F1CB47AFF002362C0 /* GameScene.sks */,
+				0E1FD4791E3F83D30047C639 /* SKButton.swift */,
+			);
+			path = "Cheese Chase";
+			sourceTree = "<group>";
+		};
+		F4C960551CB47AFF002362C0 /* Cheese ChaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C960561CB47AFF002362C0 /* Cheese_ChaseTests.swift */,
+				F4C960581CB47AFF002362C0 /* Info.plist */,
+			);
+			path = "Cheese ChaseTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4C960391CB47AFF002362C0 /* Cheese Chase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C9605B1CB47AFF002362C0 /* Build configuration list for PBXNativeTarget "Cheese Chase" */;
+			buildPhases = (
+				F4C960361CB47AFF002362C0 /* Sources */,
+				F4C960371CB47AFF002362C0 /* Frameworks */,
+				F4C960381CB47AFF002362C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cheese Chase";
+			productName = "Cheese Chase";
+			productReference = F4C9603A1CB47AFF002362C0 /* Cheese Chase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4C960511CB47AFF002362C0 /* Cheese ChaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C9605E1CB47AFF002362C0 /* Build configuration list for PBXNativeTarget "Cheese ChaseTests" */;
+			buildPhases = (
+				F4C9604E1CB47AFF002362C0 /* Sources */,
+				F4C9604F1CB47AFF002362C0 /* Frameworks */,
+				F4C960501CB47AFF002362C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C960541CB47AFF002362C0 /* PBXTargetDependency */,
+			);
+			name = "Cheese ChaseTests";
+			productName = "Cheese ChaseTests";
+			productReference = F4C960521CB47AFF002362C0 /* Cheese ChaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C960321CB47AFF002362C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Immersion ULTD";
+				TargetAttributes = {
+					F4C960391CB47AFF002362C0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = N2C3S4S5NJ;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					F4C960511CB47AFF002362C0 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 1000;
+						TestTargetID = F4C960391CB47AFF002362C0;
+					};
+				};
+			};
+			buildConfigurationList = F4C960351CB47AFF002362C0 /* Build configuration list for PBXProject "Cheese Chase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4C960311CB47AFF002362C0;
+			productRefGroup = F4C9603B1CB47AFF002362C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C960391CB47AFF002362C0 /* Cheese Chase */,
+				F4C960511CB47AFF002362C0 /* Cheese ChaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C960381CB47AFF002362C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C960401CB47AFF002362C0 /* GameScene.sks in Resources */,
+				F4C9604C1CB47AFF002362C0 /* LaunchScreen.storyboard in Resources */,
+				F4C960491CB47AFF002362C0 /* Assets.xcassets in Resources */,
+				F4C960471CB47AFF002362C0 /* Main.storyboard in Resources */,
+				F4D846D71D60EA1600D864BA /* MyData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C960501CB47AFF002362C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C960361CB47AFF002362C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D846D51D60E5CF00D864BA /* PlistManager.swift in Sources */,
+				0E5E895D1DF396230036A496 /* TutorialLevel.swift in Sources */,
+				F4CAC8A31D10546900D7DF00 /* GameScene.swift in Sources */,
+				0E26DA5D1DECB40400DB9916 /* TutorialScene.swift in Sources */,
+				F4C960441CB47AFF002362C0 /* GameViewController.swift in Sources */,
+				0E5E895F1DF3969F0036A496 /* Tutorial.swift in Sources */,
+				F46DEBC41D145113007A1FB2 /* Cat.swift in Sources */,
+				F4EC70FB1CBDD33800EFE1AA /* Level.swift in Sources */,
+				F46DEBC61D1458AA007A1FB2 /* Player.swift in Sources */,
+				F4C9603E1CB47AFF002362C0 /* AppDelegate.swift in Sources */,
+				0E1FD47A1E3F83D30047C639 /* SKButton.swift in Sources */,
+				0E3A2ADB1D9F09B7004B3B14 /* Barrier.swift in Sources */,
+				F4B5974B1D832CB20017A83B /* CheeseHud.swift in Sources */,
+				F4EC70FD1CBE86AC00EFE1AA /* StageSelect.swift in Sources */,
+				F46DEBC81D170014007A1FB2 /* Mouse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C9604E1CB47AFF002362C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C960571CB47AFF002362C0 /* Cheese_ChaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4C960541CB47AFF002362C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C960391CB47AFF002362C0 /* Cheese Chase */;
+			targetProxy = F4C960531CB47AFF002362C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4C960451CB47AFF002362C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C960461CB47AFF002362C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C9604A1CB47AFF002362C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C9604B1CB47AFF002362C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C960591CB47AFF002362C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4C9605A1CB47AFF002362C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C9605C1CB47AFF002362C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N2C3S4S5NJ;
+				INFOPLIST_FILE = "Cheese Chase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cheese-Chase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		F4C9605D1CB47AFF002362C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N2C3S4S5NJ;
+				INFOPLIST_FILE = "Cheese Chase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cheese-Chase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		F4C9605F1CB47AFF002362C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Cheese ChaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cheese-ChaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheese Chase.app/Cheese Chase";
+			};
+			name = Debug;
+		};
+		F4C960601CB47AFF002362C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cheese ChaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cheese-ChaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheese Chase.app/Cheese Chase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C960351CB47AFF002362C0 /* Build configuration list for PBXProject "Cheese Chase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C960591CB47AFF002362C0 /* Debug */,
+				F4C9605A1CB47AFF002362C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C9605B1CB47AFF002362C0 /* Build configuration list for PBXNativeTarget "Cheese Chase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C9605C1CB47AFF002362C0 /* Debug */,
+				F4C9605D1CB47AFF002362C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C9605E1CB47AFF002362C0 /* Build configuration list for PBXNativeTarget "Cheese ChaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C9605F1CB47AFF002362C0 /* Debug */,
+				F4C960601CB47AFF002362C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C960321CB47AFF002362C0 /* Project object */;
+}
